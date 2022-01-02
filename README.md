@@ -109,3 +109,4 @@ you are providing Headphone with the Laptop to the Employee)
 ### Once it is delivered, please check the Asset should be Tagged to the Target Stockroom.
 
 ## 29) Final step, change the Asset state to ‘In maintenance’ if you want to send the Asset to Vendor for Maintenance or change the state to ‘Retired’ if you want to Dispose the Asset.
+![image](https://user-images.githubusercontent.com/12488769/147889769-aa0a3cc0-04a2-4e40-8875-c6570ed215d2.png)
