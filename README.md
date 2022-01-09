@@ -1,5 +1,90 @@
 # SNOW-Asset-Mgmt-Life-Cycle
 
+## What is an Asset:
+- An asset is an item, entity, or thing (tangible or intangible) that 
+holds value for a Company or a person.
+- Examples of Assets are Estates, Resources, Inventory, Equipment 
+and Valuables.
+- Note: All CI’s is not an asset, but all Asset’s is a CI.
+
+## Asset Management System:
+- It is an accounting process that seeks to track fixed assets for the 
+purpose of financial accounting, preventive maintenance and 
+avoid thefts.
+- Organizations faces a significant challenge to track the location, 
+quantity, condition, maintenance, and depreciation status of their 
+fixed assets
+- AMS gives the best way to manage the physical movement of 
+asset like how many assets are there in the store, how many 
+assets are assigned to employee and where the asset is lying 
+physically with the help of bar code scanning.
+
+## Asset Management vs CMDB
+- Note: Asset Management and Configuration Management 
+Database are related to each other but have different goals.
+- Asset management focuses on the financial tracking of the 
+company property. 
+- Configuration Management focused on building and maintaining 
+elements that creates an available network of services.
+
+## Asset Management Lifecycle:
+![image](https://user-images.githubusercontent.com/12488769/148689079-a2a412ee-2fad-474e-942d-ec2fb904210a.png)
+
+![image](https://user-images.githubusercontent.com/12488769/148689090-b2b79622-9bdb-44a4-9bf9-5e05b61daefa.png)
+
+
+## Benefits of Asset Management:
+- Keep a track of all assets / Control inventory that is 
+purchased and used.
+- Reduce the cost of purchasing and managing assets.
+- Manage assets from different locations.
+- Provide an opportunity to plan against financial, operational,
+and legal risk.
+- Define the service levels.
+- Organize the Asset Portfolio.
+- Create a more efficient operation with ability to track 
+performance.
+- Improve Time Management.
+- Measure and monitor life cycle cost from Planning to 
+Disposal.
+- Promote the economic stability and growth of your 
+company.
+![image](https://user-images.githubusercontent.com/12488769/148689110-3c5e8c02-44d9-4a22-98ee-6fa284ee2677.png)
+
+## Asset State and Substate:
+![image](https://user-images.githubusercontent.com/12488769/148689116-26c24be9-b2f9-4edb-bd33-b11b8441dcd8.png)
+
+
+## ServiceNow includes default States and Substates that meet the 
+needs of most customers:
+- On Order – the asset has been ordered but has not yet been 
+received.
+- In Stock – the asset is in Stockroom. Its Substates indicate 
+whether an in-stock asset is available to be deployed or not.
+- In Transit – the asset is being transferred from one location 
+to another (ex: between stockrooms).
+- In Use – a non-consumable is being used; the asset is 
+typically managed as a Configuration Item as this state.
+- Consumed – a consumable is being used.
+- In Maintenance - the asset is being maintained.
+- Retired – indicates end of life.
+- Missing – the asset cannot be located after the appropriate 
+level of Investigation has been performed.
+
+## Asset and CI Process:
+![image](https://user-images.githubusercontent.com/12488769/148689127-b6ae46f5-1863-4a93-a692-55da2c046585.png)
+
+## Ensure the following plugins are active and load demo 
+data if available.
+- Contract Management
+- Procurement
+- Data Certification
+- Managed Documents
+- Extended CMDB
+- My Assets
+- Cost Management
+- Hardware Asset Management (Paid plugin)
+
 ## 1. Create a New Hardware model under Product Catalog Application, with the following attributes:
 - Manufacturer “Lenovo”
 - Name “G950”
